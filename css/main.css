@@ -1,70 +1,70 @@
 html {
   box-sizing: border-box;
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
 body {
-  line-height: 1.3rem;
-  color: #222;
-  font-family: "Crimson Text", serif;
   margin: 0;
+  padding-bottom: 1.3rem;
 }
 
 article {
+  font-family: "Crimson Text", serif;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.3em;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin: 0;
-  padding: 1rem;
-}
-
-article p {
-  padding: 0 0 1rem;
 }
 
 article header {
-  padding: 0 0 1.3rem;
+  padding: .5rem 0 1.3rem;
 }
 
-article header h1 {
+article h1 {
   font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 0;
   font-weight: normal;
-  margin: 0;
 }
 
 article header p {
-  margin: 0;
-  padding: 0 0 1.3rem;
   font-style: italic;
+  margin-top: 0;
+  padding: .3rem 0 1.3rem;
   border-bottom: 1px solid #999;
 }
 
-article > p {
+article p {
   margin: 0;
   padding: 0 0 1.3rem;
+  padding: 0 0 1rem;
 }
 
 blockquote {
-  margin:0 1.3rem;
-  padding: 0 0 1.3rem;
   font-size: 1.125rem;
+  line-height: 1.3em;
   color: #555;
-}
-
-blockquote p {
-  margin: 0;
+  margin-bottom: .1rem;
 }
 
 .quote {
-  margin: 0;
-  padding: 0;
+  margin-left: -.3em;
+}
+
+p:nth-of-type(2) {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 article ol {
   margin: 0;
-  padding: 1.3rem;
+  margin-left: 1rem;
+  padding: .3rem 0 1.2rem;
 }
 
-article > p:last-child {
+article p:last-of-type {
   border-bottom: 1px solid #999;
 }
