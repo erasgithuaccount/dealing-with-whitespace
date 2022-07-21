@@ -39,13 +39,13 @@ article header p {
   border-bottom: 1px solid #999;
 }
 
-article>p {
+article > p {
   margin: 0;
   padding: 0 0 1.3rem;
 }
 
 blockquote {
-  margin:0 1.3rem;
+  margin : 0 1.3rem;
   padding: 0 0 1.3rem;
   font-size: 1.125rem;
   color: #555;
