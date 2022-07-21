@@ -1,9 +1,11 @@
 html {
   box-sizing: border-box;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
   padding-bottom: 1.3rem;
